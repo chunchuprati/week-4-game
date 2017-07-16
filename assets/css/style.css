@@ -1,0 +1,68 @@
+.container{
+	position: absolute;
+	top:25px;
+	left:50px;
+	/*text-align: center;*/
+}
+.jumbotron{
+	background-color: #2E4053 ;
+	color:#ECF0F1  ;
+}
+h1{
+	text-align: center;
+}
+body{
+	background-color: orange;
+}
+
+.image{
+	height: 50px;
+	width:60px;
+	margin: 5px;
+	float: left;
+	margin-bottom: 20px;
+}
+ h4, span{
+	font-weight: bold;
+	text-align: center;
+}
+.numberToMatch, .winsLose{
+	float: left;
+	width: 15%;
+	height: 60px;
+	border: 0px solid #ddd;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	opacity: 0.75;
+	background: green;
+	color: #fff;
+	padding:5px;
+	border-radius: 5px;
+}
+#gems{
+	clear:both;
+	background-color: #e0e0eb;
+}
+
+.total-score{
+	clear:both;
+	width: 30%;
+	color: #fff;
+	height: 60px;
+	opacity: 0.75;
+	background: green;
+	padding: 5px;
+	border-radius: 5px;
+}
+.total-score h4 {
+	text-align: left;
+	position: relative;
+	top: 5px;
+}
+#final-score{
+	height:80px;
+	width:200px;
+	background-color: green;
+	margin-top: 20px;
+	padding:20px;
+}
